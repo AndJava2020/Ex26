@@ -33,11 +33,11 @@ public class Main {
         System.out.println();
 
         QueueList q=new QueueList(5);
+        q.add(2);
+        System.out.println(q);
         q.add(3);
         System.out.println(q);
-        q.add(5);
-        System.out.println(q);
-        q.add(6);
+        q.add(4);
         System.out.println(q);
         System.out.println(q.pull());
         System.out.println(q.pull());
